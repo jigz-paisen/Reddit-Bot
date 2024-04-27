@@ -20,7 +20,7 @@ def run_bot(r):
             comment.reply("Coinami incoming")
             print ("Replied to comment") == comment.id
 
-time.sleep(10)
+
 
 while True:
     r = bot_login() 
