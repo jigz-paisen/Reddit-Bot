@@ -14,7 +14,7 @@ def bot_login():
 
 def run_bot(r):
     print ("Obtaining 30 comments")
-    for comment in r.subreddit('a:t5_66rifp').comments(limit=30):
+    for comment in r.subreddit('a:t5_66rifp').comments(limit=10):
         if "Coin" or "Spin" in comment.body:
             print ("String found")
             comment.reply("Coinami incoming")
