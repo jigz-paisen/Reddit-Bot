@@ -17,7 +17,7 @@ def run_bot(r):
     for comment in r.subreddit('a:t5_66rifp').comments(limit=10):
         if "Coin" or "Spin" in comment.body:
             print ("String found")
-            comment.reply("Coinami incoming")
+            comment.reply("Conami incoming")
             print ("Replied to comment") == comment.id
 
 
